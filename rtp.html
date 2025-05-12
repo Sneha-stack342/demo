@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGITAL INDIA </title>
+   
+        <style>
+          .description {
+      text-align: justify;
+      width: 400px; /* Optional: set a width to see justification more clearly */
+      margin: 20px;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+          }
+            body {
+              font-family: Arial, sans-serif;
+              text-align: center;
+              background: #f8f8ff;
+              justify-content: center;
+            }
+            header {
+      background-color: #007dab;
+      color: rgb(255, 255, 255);
+      padding: 0.5px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header img {
+      height: 80px;
+      margin-right: 5px;
+      
+    }
+
+
+    header h1 {
+      font-size: 2.2rem;
+      margin: 0;
+      color: rgb(0, 255, 255);
+    }
+
+    main {
+      padding: 10px;
+    }
+            
+            .map-container {
+              position: relative;
+              display: inline-block;
+            }
+            
+            #india-map {
+              max-width: 100%;
+              height: auto;
+            }
+            
+            .tooltip {
+              position:fixed;
+              display: none;
+              width: 250px;
+              background-color: white;
+              border: 1px solid #666;
+              border-radius: 6px;
+              padding: 10px;
+              box-shadow: 0 0 10px rgba(0,0,0,0.25);
+              z-index: 100;
+              text-align: justify;
+              font-size: 16px;
+              pointer-events: none;
+            }
+            
+            .tooltip img {
+              max-width: 100%;
+              height: auto;
+              margin-top: 8px;
+            }
+            </style>
+</head>
+bh5           <body>
+  <header>
+    <!-- Sample Indian flag logo from public domain -->
+    <img src="Digital-india-black.jpg" alt="India Logo">
+    <h1>DIGITAL INDIA</h1>
+  </header>
+   <div class="map-container">
+              <img src="India_Map.jpg" usemap="#india" alt="Indian Map" id="indiamap1">
+              <map name="india">
+                  <area shape="poly" coords="324,887,323,868,332,852,343,834,344,820,345,795,345,783,335,785,324,797,317,803,311,810,299,811,285,817,281,824,269,829,257,830,237,840,239,854,232,875,229,904,229,914,229,924,235,942,248,968,252,972,269,990,276,993,288,1003,302,1010,319,1016,337,1007,343,1002,343,989,347,978,313,899,318,917,338,947,321,925,356,950,323,935,315,907,373,948,338,965,352,961,354,977,362,970,377,971,381,961,351,948,331,939,345,95" href="karnataka.html" 
+                  alt="KARNATAKA" 
+                    data-instrument="svamita yojana" 
+                    data-image="savmita yojana.jpg"
+                    data-description= "Enables rural landowners to obtain legal ownership documents. The scheme boosts digital land
+                      records and prevents encroachments. In Karnataka, it supports rural development and financial
+                      inclusion. Landowners can now access loans and services using property cards">
+                   
+                    <map name="india">
+              
+              <area shape="poly" coords="239,978,243,988,247,997,257,1006,269,1023,275,1041,284,1068,290,1082,293,1094,298,1105,299,1114,303,1127,310,1133,319,1140,325,1145,329,1149,335,1139,335,1123,340,1106,339,1090,339,1075,247,978,255,981,266,991,290,1011,295,1019,303,1027,313,1039,320,1052,323,1063,325,1072,271,997,279,1001,331,1074" href="kerala.html"
+               alt="KERALA"
+                data-instrument="jai jeevan mission"
+                data-image="jaijeevan.jpg"
+                data-description="Jal Jeevan Mission  is a flagship initiative launched by the Government of India under the Ministry of Jal Shakti on 15 August 2019. Its main goal is
+                To provide safe and adequate drinking water through individual household tap connections (FHTCs) to all rural households inIndia by2024.">
+            
+              <area shape="poly" coords="407,972,419,965,432,959,445,959,453,954,462,969,455,983,452,999,442,1019,441,1037,440,1053,440,1062,436,1071,426,1071,418,1071,414,1077,410,1086,402,1097,404,1102,405,1109,396,1110,380,1112,375,1119,372,1127,368,1136,359,1145,350,1149,342,1149,338,1143,339,1138,338,1143,338,1127,342,1114,346,1103,344,1095,340,1083,340,1075,332,1067,326,1057,322,1045,318,1037,311,1028,318,1025,327,1023,346,1018,354,1014,358,1000,358,992,363,983,374,980,380,986,390,986,393,978" href="tamilnadu.html"
+              alt="TAMIL NADU"
+                data-instrument="PM SHRI SCHEME"
+                data-image="PM SHRI SCHEME.jpg"
+                data-description="The PM SHRI Scheme (Pradhan Mantri Schools for Rising India) is a centrally sponsored initiative launched in 2022 by the Government of India. Its goal is to upgrade and develop over 14,500 schools across the country to serve as model institutions showcasing the implementation of the National Education Policy (NEP) 2020
+                ">
+            
+              <area shape="poly" coords="181,703,191,703,199,701,203,695,203,685,212,682,222,683,223,671,223,657,235,651,226,646,225,635,231,632,240,632,245,638,253,647,261,650,266,657,277,658,287,657,297,659,302,669,314,669,322,665,327,656,331,649,340,643,347,641,349,651,353,655,364,655,376,657,387,655,395,652,403,651,410,649,420,648,437,651,448,651,455,653,458,659,461,673,461,681,461,689,460,698,458,710,460,719,466,722,471,728,469,731,459,733,453,738,453,747,447,750,444,745,443,725,436,722,425,721,415,721,404,721,399,715,390,710,380,719,376,731,368,731,363,735,360,741,356,745,356,751,356,758,351,763,343,763,337,767,330,773,323,781,318,784,309,787,302,793,300,801,290,800,273,811,265,813,260,815,247,815,242,821,233,827,219,830,226,844,226,856,220,858,209,858,197,853,195,845,191,833,189,815,187,799,183,784,179,761,177,745,175,737,173,727,171,719,171,705" href="maharasthra.html"
+              alt="MAHARASHTRA"
+                data-instrument="savmita yojana"
+                data-image="savmita yojana.jpg"
+                data-description=" Enables rural landowners to obtain legal ownership documents. The scheme boosts digital land
+                records and prevents encroachments. In Karnataka, it supports rural development and financial
+                inclusion. Landowners can now access loans and services using property cards.">
+            
+              <area shape="poly" coords="219,320,213,326,206,337,203,344,193,355,184,361,177,365,171,371,163,392,152,397,143,397,132,401,120,402,115,391,105,391,93,400,85,413,75,421,72,433,75,441,82,445,93,454,87,467,95,479,109,486,113,495,115,516,127,519,141,520,155,519,170,521,179,534,193,525,197,535,205,545,208,551,209,557,211,563,221,569,229,581,239,582,243,572,253,565,253,553,253,533,253,520,256,509,267,505,275,509,285,519,292,531,290,550,301,541,307,535,314,529,318,533,321,524,326,519,326,509,335,503,316,488,319,479,323,472,330,464,347,458,357,441,359,428,349,417,338,410,328,396,321,399,304,402,304,394,297,383,230,318,239,318,249,319,252,339,260,344,270,345,279,352,284,359,287,369" href="rajasthan.html"
+               alt="RAJASTHAN"
+                data-instrument="- Pradhan Mantri Awas Yojana (PMAY):
+                "
+                data-image="PMAY.jpg"
+                data-description="The Pradhan Mantri Awas Yojana (PMAY) is a flagship housing scheme launched by the Government of India in 2015 to provide affordable housing to economically weaker sections in both urban and rural areas.The Pradhan Mantri Awas Yojana (PMAY) is a flagship housing scheme launched by the Government of India in 2015 to provide affordable housing to economically weaker sections in both urban and rural areas.
+
+                ">
+            
+              <area shape="poly" coords="226,320,232,312,236,294,243,286,250,280,250,270,253,255,260,242,271,240,278,234,290,228,294,238,302,248,312,267,318,268,323,274,327,282,334,285,334,296,328,300,320,308,315,312,304,320,294,321,282,326,276,322,265,313,251,316" href="punjab.html"
+              alt="PUNJAB"
+                data-instrument="PMAY"
+                data-image="PMAY.jpg"
+                data-description="- The government has extended PMAY-U till December 2024, with over 118.64 lakh houses sanctioned.
+                - PMAY-Urban 2.0 aims to address housing needs for 1 crore urban middle-class and poor families, with an investment of ₹10 lakh crore
+                ">
+            
+              <area shape="poly" coords="214,575,223,576,230,581,234,588,236,599,229,609,227,621,227,629,224,634,221,642,231,643,225,650,217,668,217,676,207,677,205,689,198,693,181,699,175,693,176,673,175,667,172,657,172,649,169,640,169,626,161,619,161,625,159,645,151,656,145,659,139,665,127,671,109,677,103,676,91,673,76,661,72,649,59,639,45,628,43,619,43,608,56,614,69,611,89,605,96,593,88,585,80,587,71,588,64,593,58,594,52,587,40,581,28,571,23,561,11,554,23,547,32,538,36,529,56,537,72,538,80,541,91,535,109,533,117,534,119,523,137,522,161,524,170,525,177,529,190,532,194,538,201,551,205,558,212,568" href="gujarat.html"
+               alt="GUJARAT"
+                data-instrument="sauni yojana"
+                data-image="sauni yojana.jpg"
+                data-description=" Stands for Saurashtra Narmada Avtaran Irrigation Yojana. It transports floodwaters of the Narmada
+                River to reservoirs in Saurashtra. The central government aids in irrigation infrastructure and water
+                distribution. It helps drought-proof regions and supports farmers with irrigation">
+            
+              <area shape="poly" coords="749,431,738,436,723,436,706,447,707,460,710,466,715,477,720,481,713,489,711,497,716,508,715,522,708,534,701,545,687,555,675,561,665,565,649,572,653,581,663,579,679,581,679,592,681,599,684,607,689,616,697,623,707,629,717,633,723,630,735,631,747,628,749,621,748,608,748,597,747,581,738,569,735,546,736,538,729,531,723,519,728,508,735,503,741,499,738,487,723,475,717,457,728,453,744,458,755,462,762,461,763,449,763,442,762,435" href="west bengal.html"
+              alt="WEST BENGAL"
+                data-instrument="PMAY"
+                data-image="PMAY.jpg"
+                data-description="The Pradhan Mantri Awas Yojana (PMAY) is a housing scheme launched in 2015 to provide affordable homes to low-income families. It has two components: PMAY-Urban for city dwellers and PMAY-Gramin for rural areas. The scheme offers subsidized home loans, encourages women ownership, and integrates with other welfare programs like Swachh Bharat and Saubhagya Yojana. It aims to build millions of houses, with PMAY-U extended till 2024 for further development.
+                ">
+            
+              <area shape="poly" coords="583,416,596,419,604,436,621,438,635,446,654,451,667,453,680,453,701,452,707,466,711,478,710,495,708,504,697,509,696,517,690,525,683,529,669,531,660,522,651,522,644,525,637,531,619,531,613,531,603,537,589,528,577,529,567,526,562,513,562,501,574,495,584,487,599,477,584,469,581,451,588,445,583,432,574,420" href="bihar.html"
+              alt="BIHAR"
+                data-instrument="PM-KISAN"
+                
+                data-image="pmkisan.jpeg"
+                data-description="Provides 5 kg of free rice/wheat per person monthly to poor families. Initiated during the COVID-19
+                pandemic, it supported millions in Bihar. The scheme addresses food security and ensures no one
+                sleeps hungry. It complements the National Food Security Act for enhanced coverage.">
+            
+              <area shape="poly" coords="358,314,345,318,346,335,344,338,344,348,345,358,348,381,358,390,357,402,351,412,356,424,360,428,366,437,376,446,384,443,396,447,408,458,406,472,403,484,395,493,392,502,382,507,379,522,378,533,385,537,394,543,402,534,395,519,390,510,402,501,408,508,418,508,435,512,441,502,451,502,458,509,464,509,476,515,482,512,488,509,495,508,506,514,513,520,518,522,525,524,536,526,539,533,541,544,544,558,550,558,556,552,558,537,560,526,560,515,563,504,568,495,578,484,590,482,578,468,578,462,579,448,580,440,573,430,565,426,362,327,365,336,372,342,376,331,382,341,385,351,395,355,398,368,410,371,425,373,443,376,448,379,453,375,460,381,471,389,479,387,488,392,490,400,510,407,522,415,537,421,353,320" href="uttarpradesh.html"
+              alt="UTTAR PRADESH"
+                data-instrument="PM-KISAN"
+                data-image="pmkisan.jpeg"
+                data-description="The Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) is a central government scheme launched in 2019 to provide financial assistance to small and marginal farmers across India. It aims to support farmers by offering ₹6,000 per year, distributed in three equal installments of ₹2,000 through Direct Benefit Transfer 
+                ">
+            
+              <area shape="poly" coords="718,635,708,633,691,626,679,617,658,611,661,622,657,631,647,632,637,631,628,628,620,615,615,617,599,621,583,627,580,635,571,646,570,656,565,661,559,664,551,664,545,668,541,675,541,681,539,687,541,699,552,711,552,723,542,718,529,712,519,712,525,719,527,726,533,734,533,741,531,751,527,755,522,759,512,768,507,777,505,783,520,780,528,775,533,764,547,763,559,754,565,745,573,737,591,736,594,742,602,739,617,733,628,721,631,715,638,709,648,715,657,706,674,703,683,687,683,679,686,672,682,656,689,649,695,644,712,641" href="odisha.html"
+              alt="ODISHA"
+                data-instrument="subhadara yojana"
+                data-image="subhadara yojana.jpg"
+                data-description="This scheme aims to uplift women economically and socially, reinforcing their financial independence while promoting digital literacy.
+                ">
+            
+              <area shape="poly" coords="609,745,607,754,598,762,587,775,577,780,567,792,559,802,547,807,539,813,532,819,533,829,522,842,513,847,497,847,490,857,473,866,457,869,446,891,446,913,451,926,454,932,459,941,454,949,445,952,438,957,424,959,411,963,399,969,387,983,383,978,388,967,388,954,377,941,369,931,352,933,348,922,331,920,324,908,327,895,332,888,335,875,339,862,356,853,362,846,372,839,386,843,395,836,403,825,414,821,426,820,433,814,441,811,451,812,453,804,463,801,475,797,493,793,505,792,518,786,525,781,539,777,557,768,561,761,563,754,567,747,573,745,585,745,599,749" href="andhrapradesh.html"
+               alt="ANDHRA PRADESH" 
+                data-instrument=" Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)
+                "
+                data-image="pmkisan.jpeg"
+                data-description=" A central sector scheme offering Rs. 6,000 per year to small and marginal farmers. The amount is
+                distributed in three equal installments. The scheme provides financial support to farmers for
+                purchasing seeds, fertilizers, and other inputs. Andhra Pradesh has a wide beneficiary base, helping
+                to reduce rural distress and boost agricultural productivity">
+            
+              
+              <area shape="poly" coords="391,493,399,492,403,477,409,470,412,458,406,450,399,445,388,446,377,448,370,454,360,460,347,468,334,474,327,482,323,491,333,501,347,498,356,499,356,506,355,515,344,515,339,519,343,529,340,538,334,539,334,548,326,548,313,549,302,552,296,557,284,561,278,550,291,552,291,543,291,533,285,526,275,527,271,514,263,520,257,530,263,539,263,551,264,559,263,565,259,571,251,578,247,588,246,597,238,613,235,624,243,625,247,631,255,641,265,646,278,653,298,653,309,659,315,661,323,651,337,638,353,637,358,647,363,655,376,647,393,649,408,651,423,643,435,645,449,645,465,647,470,654,474,631,491,624,500,617,511,605,519,593,509,583,502,573,507,567,517,567,403,506,382,501,383,511,379,519,381,531,385,537,391,542,403,542,404,533,400,522,397,515,393,508,407,510,416,509,421,511,432,509,444,509,454,503,458,511,467,513,475,518,489,518,495,516,507,517,517,524,527,529,538,530,539,554,537,560,531,565,513,567,516,567,513,567,517,567,433,523" href="madhyapradesh.html"
+              alt="MADHYA PRADESH"
+                data-instrument=" Brindavan Gram Scheme"
+                data-image="brindhavan gram scheme.jpg"
+                data-description="This initiative aims to boost rural livelihoods, increase milk production, and preserve traditional agricultural practices.This initiative aims to boost rural livelihoods, increase milk production, and preserve traditional agricultural practices.
+
+                ">
+            
+              <area shape="poly" coords="777,431,792,433,811,433,825,425,851,421,875,411,892,413,898,398,908,387,927,383,938,376,949,371,956,376,961,381,963,388,957,396,940,405,926,415,911,425,908,439,899,449,892,455,887,465,886,471,885,487,881,499,881,509,867,519,857,522,854,505,859,499,853,490,863,479,857,469,847,461,840,453,830,456,819,457,814,459,806,463,792,460,782,460,778,466,775,473,763,468,768,455,768,440" href="assam.html"
+              alt="ASSAM"
+                data-instrument="- PM-KISAN Scheme
+                "
+                data-image="pmkisan.jpeg"
+                data-description=" Part of the Chief Minister's Samagra Gramya Unnayan Yojana, supported by central initiatives. This
+                scheme distributes subsidized tractors to farmer groups to boost productivity. It promotes
+                mechanization in agriculture, helping farmers increase yield and income. The central government
+                supports infrastructure and logistic development under PMKSY.">
+            
+              <area shape="poly" coords="775,474,785,463,803,462,815,461,829,455,837,456,839,467,851,465,857,473,859,486,851,491,771,486,777,491,786,495,801,495,812,491,826,494,837,493" href="meghalaya.html"
+              alt="MEGHALAYA"
+                data-instrument="green meghalaya plus scheme"
+                data-image="green meghalaya plus scheme.jpg"
+                data-description="This scheme aims to preserve Meghalaya’s rich biodiversity, promote sustainable livelihoods, and combat climate change.This scheme aims to preserve Meghalaya’s rich biodiversity, promote sustainable livelihoods, and combat climate change
+
+                ">
+            
+              <area shape="poly" coords="930,463,919,471,905,470,899,481,891,486,889,496,885,505,883,511,889,520,896,527,909,531,918,528,921,517,929,503,934,489,932,475" href="manipur.html"
+              alt="MANIPUR"
+                data-instrument="PM-KISAN"
+                data-image="pmkisan.jpeg"
+                data-description="The Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) is a central government scheme launched in 2019 to provide financial assistance to small and marginal farmers across India. It offers ₹6,000 per year, distributed in three equal installments of ₹2,000 through Direct Benefit Transfer (DBT)
+                ">
+            
+              <area shape="poly" coords="896,481,907,469,919,467,930,463,939,471,941,457,945,442,945,431,945,422,945,408,935,411,927,419,921,423,914,428,909,447,899,451,895,459,893,465,887,475" href="nagaland.html"
+              alt="NAGALAND"
+                data-instrument="PM-KISAN"
+                data-image="pmkisan.jpeg"
+                data-description="Part of the Chief Minister's Samagra Gramya Unnayan Yojana, supported by central initiatives. This
+                scheme distributes subsidized tractors to farmer groups to boost productivity. It promotes
+                mechanization in agriculture, helping farmers increase yield and income. The central government
+                supports infrastructure and logistic development under PMKSY">
+            
+              <area shape="poly" coords="859,532,865,523,873,519,895,530,883,525,899,541,899,554,898,563,894,575,894,585,894,611,891,623,877,623,875,607,875,593,865,581,865,565,862,555,862,547" href="mizoram.html"
+               alt="MIZORAM"
+                data-instrument="bana kaih scheme"
+                data-image="bana kaih scheme.jpg"
+                data-description="This initiative plays a crucial role in boosting Mizoram’s economy, ensuring sustainable development, and empowering local communities
+                This initiative plays a crucial role in boosting Mizoram’s economy, ensuring sustainable development, and empowering local communities
+                ">
+            
+              <area shape="poly" coords="853,375,861,362,879,357,886,346,910,335,922,317,940,319,962,315,980,321,983,333,982,338,980,346,995,346,1000,351,1006,355,1006,367,993,377,1006,386,1008,392,990,388,972,395,969,404,951,413,947,420,942,402,953,393,962,389,961,379,963,361,952,355,950,365,942,371,936,372,918,374,914,385,902,391,893,399,889,405,872,408,866,408,853,409,842,417,838,405,830,401,826,385,834,391,850,384" href="arunachal pradesh.html"
+              alt="ARUNACHAL PRADESH"
+                data-instrument="har ghar gel"
+                data-image="har ghar gel.jpg"
+                data-description=" Aims to provide functional household tap connections (FHTCs) in rural India. Despite geographical
+                challenges, Arunachal Pradesh has made significant progress. The scheme ensures clean drinking
+                water, reducing disease and improving quality of life. It also creates employment in water
+                management and maintenance">
+            
+              <area shape="poly" coords="714,437,739,437,739,424,739,415,735,397,735,387,727,385,720,387,711,400,708,407,706,417,706,428" href="sikkim.html"
+              alt="SIKKIM"
+                data-instrument="jai jeevan mission"
+                data-image="jaijeevan.jpg"
+                data-description="The Jal Jeevan Mission (JJM) is a flagship initiative launched by the Government of India in 2019 to provide safe and adequate drinking water to all rural households through Functional Household Tap Connections .The mission is being extended to December 2028 to complete the remaining work
+                ">
+            
+              <area shape="poly" coords="203,863,211,863,224,867,223,881,225,893,217,899,211,893,205,884,197,871" href="goa.html"
+               alt="GOA"
+                data-instrument="goem vinamulya vij yevjan scheme"
+                data-image="goem vinamulya vij yevjan scheme.jpg"
+                data-description=" Aims to provide pucca houses with basic amenities to the homeless and poor. In Chhattisgarh, the
+                scheme targets rural and tribal populations. Central assistance supports house construction and
+                beneficiary selection. It contributes to better living standards and reduced homelessness">
+            
+              <area shape="poly" coords="387,723,394,723,403,728,418,734,438,734,443,752,446,762,459,765,474,777,480,785,482,792,470,793,468,802,445,804,437,807,429,812,424,817,414,820,404,822,399,826,392,834,380,838,367,838,357,848,351,848,351,840,351,826,359,808,357,798,357,788,354,778,354,769,366,761,369,754,369,746,376,744,383,735" href="telangana.html"
+               alt="TELANGANA"
+                data-instrument="Mission Bhagirath"
+                data-image="mission bhagirath.jpg"
+                data-description="Mission Bhagiratha has transformed Telangana’s water supply system, ensuring safe and sustainable drinking water for all residents.Mission Bhagiratha is a safe drinking water project launched by the Government of Telangana to provide piped water supply to every household in the state. The initiative was introduced in 2016 with a budget of ₹43,791 crores">
+            
+              <area shape="poly" coords="314,324,317,313,327,310,334,301,338,291,343,295,351,301,353,310,349,314,343,321,339,328,339,335,340,341,341,349,341,356,342,363,348,372,352,380,349,391,350,398,347,404,339,403,333,394,327,393,318,393,307,399,301,387,296,377,287,361,279,351,269,341,259,339,258,332,254,322,264,319,270,326,275,333,282,329,291,325,301,323" href="haryana.html"
+              alt="HARYANA"
+                data-instrument="savmita yojana"
+                data-image="savmita yojana.jpg"
+                data-description=" A central scheme using drone technology to survey and map rural properties. Haryana implemented
+                it early, providing property cards to villagers. The scheme helps reduce disputes, enables access to
+                bank loans, and strengthens legal ownership for rural households">
+            
+              <area shape="poly" coords="369,282,377,274,383,273,394,277,401,273,410,269,421,283,431,285,440,290,450,302,461,305,471,315,461,321,456,325,454,335,449,344,447,353,444,358,443,363,425,363,436,364,414,358,408,357,403,349,400,338,392,337,383,328,377,325,369,333,365,321,365,313,359,307,365,297" href="uttarakhand.html"
+               alt="UTTARAKHAND"
+                data-instrument="jal jeevan mission"
+                data-image="jaijeevan.jpg"
+                data-description="provide Functional Household Tap Connections (FHTCs) to every rural household in India by 2024, ensuring safe and adequate drinking water.">
+            
+              <area shape="poly" coords="272,222,259,219,239,209,227,192,227,175,226,148,228,139,239,128,245,122,239,113,227,103,220,98,197,79,207,61,219,52,239,51,264,47,284,49,300,55,315,71,327,82,331,86,339,95,360,104,391,99,403,97,416,89,433,100,443,106,447,125,439,145,419,160,403,161,400,172,403,177,407,189,416,195,425,205,426,213,415,225,405,228,393,219,390,209,382,209,376,214,368,198,357,199,344,198,335,185,326,191,316,193,310,199,300,207,300,213,293,215,286,218" href="jammu.html"
+              alt="JAMMU AND KASHMIR"
+                data-instrument="pradhan mantri awas yogana"
+                data-image="pradhan mantri awas yojan.jpg"
+                data-description="Pradhan Mantri Awas Yojana (PMAY) is a government initiative launched in 2015 to provide affordable housing to economically weaker sections in urban and rural areas of India">
+
+              <area shape="poly" coords="312,261,304,246,301,225,305,210,311,199,318,193,325,193,343,200,353,205,363,203,367,215,374,216,389,220,396,237,397,250,397,261,392,267,365,271,359,279,361,292,358,299,345,291,336,282,327,272" href="himachalpradesh.html"
+              alt="HIMACHAL PRADESH"
+                data-instrument="jai jeevam mission"
+                data-image="jaijeevan.jpg"
+                data-description="Focuses on providing clean water through household tap connections. In hilly terrains like Himachal
+                Pradesh, implementation is challenging. The mission improves public health, hygiene, and
+                time-saving for women. It ensures community participation in water management">
+                
+                
+                <area shape="poly" coords= "524,583,510,577,520,571,524,566,539,569,551,563,566,554,574,559,581,565,582,574,585,583,587,589,594,599,589,614,582,622,573,627,565,639,562,649,555,660,544,663,532,668,531,681,530,691,535,702,539,707,545,716,532,711,516,704,512,709,517,718,522,727,526,733,532,744,505,763,520,755,506,770,498,783,489,785,477,769,465,762,461,747,475,735,482,725,469,717,464,702,469,687,469,673,472,658,476,645,478,635,491,627,501,619,511,611,517,605,524,593,529,588" href="chattisgarh.html"
+                alt="CHHATTISGARH"
+                  data-instrument="pradhan mantri awas yojan"
+                  data-image="pradhan mantri awas yojan.jpg"
+                  data-description=" Aims to provide pucca houses with basic amenities to the homeless and poor. In Chhattisgarh, the
+                  scheme targets rural and tribal populations. Central assistance supports house construction and
+                  beneficiary selection. It contributes to better living standards and reduced homelessness">
+                  
+                  
+                  <area shape="poly" coords="850,519,860,538,858,548,852,554,849,564,847,578,840,578,829,569,827,563,825,557,821,544,823,535,831,525,839,519" href="tripura.html"
+                  alt="TRIPURA"
+                    data-instrument="CM -SATH scheme"
+                    data-image="CM -SATH scheme.jpg"
+                    data-description="The CM-SATH Scheme is an initiative launched by the Tripura government to support meritorious students in their higher education. The scheme provides financial assistance to students who excel in their Madhyamik (Secondary) and Higher Secondary examinations.
+                    The scheme aims to remove financial barriers for talented students and encourage higher education in the state">
+                   
+                    <area shape="poly" coords="571,536,581,534,601,533,613,535,628,539,634,532,646,525,659,525,671,533,680,535,695,529,695,513,711,509,709,529,705,539,693,546,685,551,675,553,665,556,657,561,647,567,645,575,651,580,665,586,672,594,679,604,681,610,671,611,659,611,655,619,651,629,645,624,636,622,628,619,624,609,617,610,608,614,597,615,593,604,597,593,591,583,585,571,577,562,570,546" href="jharkhand.html"
+                    alt="JHARKHAND"
+                      data-instrument="pradhan mantri garib kalyan anna yojana"
+                      data-image="pradhan mantri garib kalyan anna  yojan.jpg"
+                      data-description=" Targets poor and tribal populations by providing free food grains. Implemented effectively to combat
+                      hunger and malnutrition. The scheme complements the state's ration card system. It supports
+                      vulnerable communities during economic hardships">
+                      
+                      
+                        
+                
+                </map>
+            
+                <div id="tooltip" class="tooltip"></div>
+              </div>
+            <script>
+            const tooltip = document.getElementById('tooltip');
+            const areas = document.querySelectorAll('area');
+            
+            areas.forEach(area => {
+              area.addEventListener('mousemove', (e) => {
+                const state = area.alt;
+                const instrument = area.dataset.instrument;
+                const image = area.dataset.image;
+                const description = area.dataset.description;
+            
+                tooltip.innerHTML = `
+                  <strong>${state}</strong><br>
+                  <em>${instrument}</em><br>
+                  <img src="${image}" alt="${instrument}"><br>
+                  <small>${description}</small>
+                `;
+            
+                tooltip.style.display = 'block';
+                tooltip.style.left = (e.pageX + 15) + 'px';
+                tooltip.style.top = (e.pageY + 15) + 'px';
+              });
+              
+            
+              area.addEventListener('mouseleave', () => {
+                tooltip.style.display = 'none';
+              });
+            });
+            </script>
+        
+        
+    </main>
+    
+   
+    
+    <script>
+        // Enhanced JavaScript for animations
+        document.getElementById('aboutBtn').addEventListener('click', function() {
+            const aboutSection = document.getElementById('about');
+            aboutSection.classList.add('visible');
+            
+            // Smooth scroll to about section
+            window.scrollTo({
+                top: aboutSection.offsetTop - 20,
+                behavior: 'smooth'
+            });
+            
+            // Add pulse animation to button
+            this.classList.add('pulse');
+            setTimeout(() => {
+                this.classList.remove('pulse');
+            }, 500);
+        });
+        
+        // Add animation to header elements on load
+        document.addEventListener('DOMContentLoaded', function() {
+            const logo = document.querySelector('.logo');
+            const header = document.querySelector('header');
+            
+            // These animations are handled by CSS
+            // Just ensuring they trigger properly
+            logo.style.animation = 'rotateIn 1s ease-out';
+            header.style.animation = 'slideDown 0.8s ease-out';
+        });
+    </script>
+</body>
+</html>
